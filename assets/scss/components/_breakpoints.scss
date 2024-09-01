@@ -1,5 +1,5 @@
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
+/*--------------- BREAKPOINTS ---------------*/
+/* For Small Devices */
 @media screen and (max-width: 320px){
     .container{
         margin-left: var(--mb-1);
@@ -36,7 +36,7 @@
     }
 }
 
-/* For medium devices */
+/* For Medium Devices */
 @media screen and (min-width: 576px){
     .home__img-bg{
         width: 340px;
@@ -228,7 +228,7 @@
 
 }
 
-/* For large devices */
+/* For Large Devices */
 @media screen and (min-width: 1024px){
     .container{
         margin-left: auto;

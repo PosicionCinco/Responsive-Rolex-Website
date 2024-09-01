@@ -1,11 +1,11 @@
-/*=============== GOOGLE FONTS ===============*/
+/*--------------- GOOGLE FONTS ---------------*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-/*=============== VARIABLES CSS ===============*/
+/*--------------- VARIABLES CSS ---------------*/
 :root{
     --header-height: 3.5rem;
 
-    /*========== Colors ==========*/
+    /*--------------- Colors ---------------*/
     /*Color mode HSL(hue, saturation, lightness)*/
     --first-color: hsl(31, 100%, 70%);
     --button-color: hsl(0, 0%, 17%);
@@ -17,7 +17,7 @@
     --container-color: #fff;
     --border-color: hsl(0, 0%, 94%);
 
-    /*========== Font and typography ==========*/
+    /*--------------- Font and Typography ---------------*/
     /*.5rem = 8px | 1rem = 16px ...*/
     --body-font: 'Roboto', sans-serif;
 
@@ -29,7 +29,7 @@
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
 
-    // Responsive typography
+    // Responsive Typography
     @media screen and (min-width: 968px){
         --biggest-font-size: 2.5rem;
         --h1-font-size: 2.25rem;
@@ -40,11 +40,11 @@
         --smaller-font-size: .813rem;
     }
 
-    /*========== Font weight ==========*/
+    /*--------------- Font weight ---------------*/
     --font-medium: 500;
     --font-bold: 700;
 
-    /*========== Margenes Bottom ==========*/
+    /*--------------- Margenes Bottom ---------------*/
     /*.5rem = 8px | 1rem = 16px ...*/
     --mb-0-5: .5rem;
     --mb-0-75: .75rem;
@@ -54,7 +54,7 @@
     --mb-2-5: 2.5rem;
     --mb-3: 3rem;
 
-    /*========== z index ==========*/
+    /*--------------- Z Index ---------------*/
     --z-tooltip: 10;
     --z-fixed: 100;
 }

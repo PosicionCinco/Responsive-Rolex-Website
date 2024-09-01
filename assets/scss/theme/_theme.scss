@@ -1,5 +1,5 @@
-/*=============== THEME ===============*/
-/*========== Variables Dark theme ==========*/
+/*--------------- THEME ---------------*/
+/*--------------- Variables Dark theme ---------------*/
 body.dark-theme{
     --first-color: hsl(31, 76%, 74%);
     --button-color: hsl(0, 0%, 24%);
@@ -11,17 +11,17 @@ body.dark-theme{
     --border-color: hsl(0, 0%, 20%);
 }
 
-/*========== Button Dark/Light ==========*/
+/*--------------- Button Dark/Light ---------------*/
 .change-theme {
     color: var(--title-color);
     font-size: 1.25rem;
     cursor: pointer;
 }
 
-/*========== 
+/*--------------- 
     Color changes in some parts of 
     the website, in dark theme 
-==========*/
+---------------*/
 
 .dark-theme .change-theme,
 .dark-theme .nav__toggle,

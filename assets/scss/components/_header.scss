@@ -1,4 +1,4 @@
-/*=============== HEADER & NAV ===============*/
+/*--------------- HEADER & NAV ---------------*/
 .header{
     width: 100%;
     background: transparent;
@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    transition: .4s; /*For animation dark mode*/ 
+    transition: .4s; /*For Animation Dark Mode*/ 
 }
 
 .nav{
@@ -82,18 +82,18 @@
     }
 }
 
-/* Show menu */
+/* Show Menu */
 .show-menu{
     right: 0;
 }
 
-/* Change background header */
+/* Change Background Header */
 .scroll-header{
     background-color: var(--body-color);
     box-shadow: 0 1px 4px hsla(0, 4%, 15%, .10);
 }
 
-/* Active link */
+/* Active Link */
 .active-link{
     color: var(--first-color);
 }
